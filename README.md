@@ -57,3 +57,13 @@ Class       ClassTeacher    Strength
 15          oil             67
 
 ```
+
+* Files are generally used for configurations, logs etc.
+* Files are preferred
+-> When data is Static(no frequent changes).
+-> Small amount of data
+-> While performing only simple operations read and write.
+
+### DATA BASE MANAGEMENT SYSTEM
+
+
