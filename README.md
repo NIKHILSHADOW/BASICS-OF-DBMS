@@ -123,3 +123,23 @@ Popular Non-Relational DBMS
 * Cassandra
 * Time scaled
 
+### Relational model
+    - 1960
+    - Edgar Codd
+    - Turing Award
+
+* Represented in tables.
+* Data is stored in rows.
+
+```
+Table is a relation.
+Tuple is a row.
+Attribute is a column.
+```
+
+### Tuple
+* A Tuple is record or row, is a basic unit of data in rdbms.
+* A Tuple represents a single instance of relation or table in database.
+
+### Attributes
+* 
