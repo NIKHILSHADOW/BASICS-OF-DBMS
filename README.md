@@ -87,6 +87,11 @@ insertion of tony and gill at a time, it will consider only one change.
     * Small amount of data.
     * While performing only simple operations read and write.
 
+
+### Random Access vs Sequential Acess
+    - Sequential access is searching one by one record.
+    - Random access is going directly to that location and searching.
+
 ### DATA BASE MANAGEMENT SYSTEM
 
 - Software which help us manage Database.
@@ -142,4 +147,39 @@ Attribute is a column.
 * A Tuple represents a single instance of relation or table in database.
 
 ### Attributes
-* 
+* A characteristic of a table.
+
+### Degree
+* Number of attributes or Columns
+
+### Cardinality
+* Number of rows or tuples.
+
+### Properties of RDMS
+
+* Unique
+    - Rows or Tuples should be unique.
+    - Attributes or Columns Should be unique.
+* Unordered(change in order also represent same)
+    - Tuples are unordered.
+    - Attributes are unordered.
+* Uniform datatype
+    - The datatype of an attribute in all tuples is always same in the same table.
+* Atomicity
+    - It should be atomic in datatype, not in group.
+    - As datatype of each attribute is atomic, we can know each tuple size, so we can identify the location of the tuple which we are searching, so we can do random access
+
+** Keys
+    - We use keys to uniquely identify tuple.
+    - Describe Relationship between relations.
+
+* Super key
+    - any set of attributes that uniquely identify a tuple
+* Candidate Key
+    - Minimal number of attributes that uniquely identify a tuple
+* Primary Key
+    - One of the Candidate key.
+
+* Composite Key
+    - Morethan one column is used to identify the tuple uniquely.
+
