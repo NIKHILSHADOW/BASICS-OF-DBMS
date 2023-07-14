@@ -2,6 +2,8 @@
 
 MYSQL, POSTGRES, MONGODB, REDIS, ORACLE, CASSANDRA are DBMS not DB
 
+we use DB like AmazonDB, GoogleDB whose data is stored we generally use that
+
 ### DATA
 * Data is nothing but information.
 * Data is used for Analysis.
@@ -40,6 +42,12 @@ RollNo  StudentName age     class   ClassStrength ClassTeacher
 
 ### Inconsistent
 
+I want to add new person of class 17 in student table then, it wont directly add to class table, here if we forgot to add, data will be inconsistent.
+
+or
+
+If we want to change class 16 to 17 then, it wont be directly applied to student table.
+
 ```
 EXAMPLE
 
@@ -58,12 +66,60 @@ Class       ClassTeacher    Strength
 
 ```
 
+### Concurrency
+
+Here in the below table at a point of two people are trying add their names, then we consider last change in file system.
+
+```
+StudentName
+===========
+Vijay
+Suresh
+Rakesh
+
+insertion of tony and gill at a time, it will consider only one change.
+
+```
+
 * Files are generally used for configurations, logs etc.
 * Files are preferred
--> When data is Static(no frequent changes).
--> Small amount of data
--> While performing only simple operations read and write.
+    * When data is Static(no frequent changes).
+    * Small amount of data.
+    * While performing only simple operations read and write.
 
 ### DATA BASE MANAGEMENT SYSTEM
 
+- Software which help us manage Database.
+
+* Concurrency
+* Security
+* Integrity
+* Efficient
+* Views(partial data access)
+* Fault tolerance(data losing issues)
+
+Two types of DBMS
+    - Relational
+    - Non-Relational
+
+### Relational Database Management System
+
+
+Popular RDBMS
+================
+* Mysql
+* Postgres
+* Oracle
+* SQLite
+
+### Non-Relational Database Management System
+
+Popular Non-Relational DBMS
+============================
+* Neo4J (Graph-database)
+* Redis (Key-value or map)
+* Mongo (Document-based)
+* Columnar
+* Cassandra
+* Time scaled
 
