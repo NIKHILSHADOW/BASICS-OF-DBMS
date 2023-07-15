@@ -48,6 +48,16 @@ or
 
 If we want to change class 16 to 17 then, it wont be directly applied to student table.
 
+or
+
+There might be a class (let's suppose be 18) in students table, which might not be there in class table.
+
+or
+
+lets delete class(16) on class table , but in students table it will not be deleted
+
+These are issues which DBMS handles and file don't
+
 ```
 EXAMPLE
 
@@ -183,3 +193,62 @@ Attribute is a column.
 * Composite Key
     - Morethan one column is used to identify the tuple uniquely.
 
+### Data Integrity
+    Data Correctness
+
+### ER Diagram
+    - In Relation model we use sets.
+    - In ER model we use Entity and Relationship
+    - Currently we are using ER diagram
+
+### Entity 
+    - A real world object that is distinguishable from other objects in real world.
+
+    1. Tangible Entities
+        - Entities which has physical presence.
+        Ex: Cars, Books, etc.
+    2. Non-Tangible Entities
+        - Entities which do not have physical prsence.
+        Ex: Emailid's, Phone numbers, etc.
+
+### Attribute
+    - A Entity property or properties of real world object.
+
+
+### Data Integrity
+
+    - Inserting Duplicate rows into table is not allowed.
+    - Database don't allow values with invalid datatypes
+    - Database didn't allow to delete referenced rows which    causes inconsistency
+
+    - Entity Integrity :
+        - It Ensures rows are unique.
+        - PK(unique and not null)
+    - Domain Integrity :
+        - It Ensures that the table values follow table Structure.
+        Ex: Datatype of values under same attribute is to be same, Following NULL rule, Date format should be followed, range of values, size of values should be satisfied.
+    - Referential Integrity :
+        - It ensures that insertion of Referenced values exist.
+        Ex: 
+        ```
+
+        Teacher
+
+        |   teacher-name     |   age    |
+        --------------------------------
+        |   Raveena          |   57     |
+        --------------------------------
+        |   Olive            |   49     |
+
+
+        Student
+
+        |   student-name    |   age     |       class       |       teacher-name        |
+        --------------------------------------------------------------------------------
+        |   Tondon          |   23      |       16          |       Raveena             |
+        --------------------------------------------------------------------------------
+        |   Ravi            |   21      |       15          |       olive               |
+
+
+        If we try to insert a value which is not in teacher table it will throw an error
+        ```
