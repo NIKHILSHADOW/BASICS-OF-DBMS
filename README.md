@@ -216,21 +216,19 @@ Attribute is a column.
 
 
 ### Data Integrity
-    - Inserting Duplicate rows into table is not allowed.
-    - Database don't allow values with invalid datatypes
-    - Database didn't allow to delete referenced rows which    causes inconsistency
+* Inserting Duplicate rows into table is not allowed.
+* Database don't allow values with invalid datatypes.
+* Database didn't allow to delete referenced rows which    causes inconsistency
 
-    - Entity Integrity :
+#### Entity Integrity :
         - It Ensures rows are unique.
         - PK(unique and not null)
-    - Domain Integrity :
+#### Domain Integrity :
         - It Ensures that the table values follow table Structure.
         Ex: Datatype of values under same attribute is to be same, Following NULL rule, Date format should be followed, range of values, size of values should be satisfied.
-    - Referential Integrity :
+#### Referential Integrity :
         - It ensures that insertion of Referenced values exist.
-        Ex: 
-
-        ```
+        Ex:
         Teacher
 
         |   teacher-name     |   age    |
@@ -250,4 +248,3 @@ Attribute is a column.
 
 
         If we try to insert a value which is not in teacher table it will throw an error
-        ```
