@@ -216,11 +216,9 @@ Attribute is a column.
 
 
 ### Data Integrity
-    ```
     - Inserting Duplicate rows into table is not allowed.
     - Database don't allow values with invalid datatypes
     - Database didn't allow to delete referenced rows which    causes inconsistency
-    ```
 
     - Entity Integrity :
         - It Ensures rows are unique.
