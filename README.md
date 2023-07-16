@@ -261,4 +261,4 @@ Attribute is a column.
     - Composite attribute : combination of multiple sub attributes. (Ex: name - first-name+middle-name+last-name).
 Ex :
 
-[ER-1](ER-1.drawio)
+[ER-1](/temp/ER-1.png)

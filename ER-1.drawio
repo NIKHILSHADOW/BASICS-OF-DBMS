@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-15T16:10:02.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7jSq3sbgKKJwYKDBJ0pk" version="21.6.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-07-16T03:11:49.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EdazkaX5voNOB1ePToog" version="21.6.2" type="device">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="840" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,6 +68,21 @@
         </mxCell>
         <mxCell id="Hpv5rLEoRyB7x9i4mZ83-20" value="PHONE" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="90" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpv5rLEoRyB7x9i4mZ83-24" value="&lt;font color=&quot;#000111&quot;&gt;Dotted = Derived&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpv5rLEoRyB7x9i4mZ83-25" value="Oval attached to other ovals = Composite&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpv5rLEoRyB7x9i4mZ83-27" value="Oval having Boundary = Multi-valued&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpv5rLEoRyB7x9i4mZ83-28" value="Single Oval = Simple" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpv5rLEoRyB7x9i4mZ83-29" value="Underlined text inside oval = key&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="360" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
