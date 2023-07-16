@@ -262,4 +262,3 @@ Attribute is a column.
 Ex :
 
 ![ER-1](/temp/ER-1.png)
-![ER-2](/ER-1.drawio)
