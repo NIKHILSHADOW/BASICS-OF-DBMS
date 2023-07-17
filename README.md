@@ -14,10 +14,11 @@ s
 ### DATABASE MANAGEMENT SYSTEM
 * These are softwares that help us manage data.
 
-[File](File/README.md)
+## CHAPTERS
+* [File](File/README.md)
 
-[DBMS](DBMS/README.md)
+* [DBMS](DBMS/README.md)
 
-[ER](ER/README.md)
+* [ER](ER/README.md)
 
-[Cardinality](Cardinality/README.md)
+* [Cardinality](Cardinality/README.md)
