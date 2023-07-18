@@ -86,3 +86,5 @@ Here I will have problem, when i want to add new teacher, because StudentId is p
 ## NORMALIZATION
     - The goal of a relational database design is to generate a set of relational schemas that allows us to store information without any redundant data. It also allows us to retrieve easily and more efficiently.
 
+    - We follow 
+
