@@ -22,3 +22,5 @@ s
 * [ER](ER/README.md)
 
 * [Cardinality](Cardinality/README.md)
+
+* [Normalization](Normalization/README.md)
