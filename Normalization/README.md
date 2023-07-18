@@ -57,7 +57,7 @@ Here I will have problem, when i want to add new teacher, because StudentId is p
 
 ```
     StudentID   |   S_Name     |   CourseId    |   C_Fee    |
-    ------------|--------------|---------------|------------|
+    ----------  |  ----------  |  -----------  |  ----------|
     1           |   Jill       |    4          |    26620   |
     2           |   jiah       |    2          |    77337   |
     3           |   usi        |    3          |    73273   |
@@ -69,4 +69,4 @@ Here I will have problem, when i want to add new teacher, because StudentId is p
 ##  Functional Dependency
 
 ### 1. Trivial Dependency :
-        - A functional dependency of the form X->Y is trivial if Y <div>&sub;</div> X
+        - A functional dependency of the form X->Y is trivial if Y ⊆ X.
