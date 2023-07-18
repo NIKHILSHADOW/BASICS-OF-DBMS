@@ -57,7 +57,7 @@ Here I will have problem, when i want to add new teacher, because StudentId is p
 
 ```
     StudentID   |   S_Name     |   CourseId    |   C_Fee    |
-    ----------  |  ----------  |  -----------  |  ----------|
+    ----------  |  ----------  |  -----------  |  --------  |
     1           |   Jill       |    4          |    26620   |
     2           |   jiah       |    2          |    77337   |
     3           |   usi        |    3          |    73273   |
@@ -70,3 +70,19 @@ Here I will have problem, when i want to add new teacher, because StudentId is p
 
 ### 1. Trivial Dependency :
         - A functional dependency of the form X->Y is trivial if Y ⊆ X.
+### 2.  Full Functional Dependency :
+        - A FD X->Y is a full functional dependency if removal of any Attribute A from X means that the dependency doesnot hold true.
+### 3.  Partial Dependency :
+        - A FD X->Y is a partial dependency if some attribute A ∈ X can be removed from X and then the dependency still hold true.
+### 4.  Transitive Dependency   :
+        - A FD P->Q and Q->R holds then P->R is transitive dependency.
+### 5.  Multi-valued Dependency :
+        **** to be added        ****
+
+###  PRIME ATTRIBUTE :
+    -   An attribute of relational schema R is called a prime attribue of R if it is a member of some candidate key of R.
+
+
+## NORMALIZATION
+    - The goal of a relational database design is to generate a set of relational schemas that allows us to store information without any redundant data. It also allows us to retrieve easily and more efficiently.
+
