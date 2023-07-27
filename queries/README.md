@@ -54,4 +54,54 @@
  Comments
 */
 ```
+* Show databases
+```
+show databases;
+```
 
+* Create Database
+```
+Create Database database-name
+```
+
+* Switch to needed database
+```
+use database-name
+```
+
+* drop database
+```
+drop database database-name
+```
+
+* View all tables presnt in current database
+```
+show tables;
+```
+
+* view description of database
+```
+desc table-name
+```
+
+* create table
+```
+create table table-name
+(
+    column-name datatype constraints,
+    column-name datatype constraints,
+    column-name datatype constraints,
+    constraints
+);
+
+EX:
+
+create table student
+(
+    id int not null auto_increment,
+    first_name varchar(30) not null,
+    last_name varchar(30) not null,
+    batch_id int,
+    primary key(id)
+);
+```
