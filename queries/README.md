@@ -173,3 +173,58 @@ select * from table-name where name is NULL;
 
 ```
 
+### reduce code by using 'in' in place of or
+
+```
+// select rows with id =1 or id=2 or id=4
+select * from table-name where id in (1,2,4);
+
+// select rows whose id not equal 1 and 2 and 3
+select * from table-name where not in (1,2,3);
+```
+
+### print in order 
+```
+-- select rows in the increasing order of id
+select * from table-name order by id;
+
+-- select rows in the decreasing order of id
+select * from table-name order by id desc;
+
+
+```
+
+### Select only first n rows
+```
+-- select first 5 rows
+select * from table-name limit 5;
+
+-- select top 5 rows in order of rank
+select * from table-name order by rank limit 5;
+
+-- select top 5 rows in order by marks
+select * from table-name order by marks desc limit 5;
+
+```
+
+### Update table
+
+```
+-- update table rows
+
+update table-name set column-name = 'value' 
+
+```
+
+
+### Delete rows
+
+```
+-- delete all rows
+delete from table-name
+
+-- delete rows with condition 
+delete from table-name where name='iifif';
+```
+
+
