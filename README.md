@@ -24,3 +24,5 @@ s
 * [Cardinality](Cardinality/README.md)
 
 * [Normalization](Normalization/README.md)
+
+* [Queries](queries/README.md)

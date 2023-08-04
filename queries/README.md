@@ -105,3 +105,71 @@ create table student
     primary key(id)
 );
 ```
+
+### Change defination of already defined table
+- we need the alter for changing defination
+
+* Add new Column
+```
+alter table table-name
+add column column-name datatype
+```
+
+* Modify column 
+```
+
+```
+
+### Read from table
+```
+-- read all rows
+select * from table-name
+
+-- read with condition
+select * from table-name where id = 1;
+
+-- read selected columns
+select column1-name, column2-name from table-name;
+
+-- read selected column values with condition
+select column1-name, column2-name from table-name where id =1;
+```
+
+### String matching 
+```
+-- match group of characters (%)
+-- select whose column-name-value starts with T
+select * from table-name where column-name like 'T%'
+
+-- select whose name ends with T
+select * from table-name where name like '%T'
+
+-- select whose name starts with 's' and ends with 'o'
+select * from table-name where name like 's%o'
+
+-- matches exactly one character(_)
+-- select 5 letter name whose first char is o, third is p and fifth is y
+select * from table-name where name like 'o_p_y';
+
+```
+
+### logical operators
+
+```
+-- print rows with id =1 or id =3 or id =5
+select * from table-name where id=1 or id=3 or id=5;
+
+-- print rows with name = 'pooe' and city='psie'
+select * from table-name where name='pooe' and city='psie';
+
+--print rows except whose name='stalin'
+select * from table-name where name != 'stalin'
+
+--print rows whose name is not NULL
+select * from table-name where name is not NULL;
+
+--print rows whose name is NULL
+select * from table-name where name is NULL;
+
+```
+
